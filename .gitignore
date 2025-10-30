@@ -1,0 +1,32 @@
+# Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+env/
+
+# Audio and video data
+audios/
+videos/
+
+# JSON and output data
+jsons/
+output.json
+response.txt
+prompt.txt
+
+# Embeddings and large binary files
+*.joblib
+*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Temporary or generated files
+*.log
